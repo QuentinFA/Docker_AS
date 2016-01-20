@@ -1,0 +1,24 @@
+PS1='${debian_chroot:+($debian_chroot)}\[\033[00;33m\]\u@\h \[\033[00;34m\]\w $\[\033[0;m\] '
+
+###################
+##### ALIASES #####
+###################
+
+# ls
+############
+alias ls='ls --color=auto'
+alias l='ls'
+alias ll='ls -lh'
+alias lla='ll -a'
+
+
+# enable color support for greps
+################################
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+
+# Parent and current
+#############
+alias ..='cd ..'
+alias .='pwd'
