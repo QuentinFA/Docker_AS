@@ -5,6 +5,6 @@ RUN echo "deb http://www.emdebian.org/debian/ squeeze main" >> /etc/apt/sources.
 
 RUN apt-get update
 RUN apt-get install make
-RUN apt-get -y --force-yes install gcc-4.4-mipsel-linux-gnu g++ g++-multilib gdb nano
+RUN apt-get -y --force-yes install gcc-4.4-mipsel-linux-gnu g++ g++-multilib gdb nano less
 
 COPY bashrc_root /root/.bashrc
